@@ -3,9 +3,12 @@ import Markdown from "./Markdown";
 
 function App() {
   return (
-    <div className="App">
-      <Markdown />
-    </div>
+    <>
+      <h1 className="title">MARKDOWN PREVIEW</h1>
+      <div className="App">
+        <Markdown />
+      </div>
+    </>
   );
 }
 
