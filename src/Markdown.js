@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReactMarkdown from "react-markdown";
 
 const Markdown = () => {
-  const [text, setText] = useState("# MarkDown Preview");
+  const [text, setText] = useState("# MarkDown Preview App");
   return (
     <>
       <textarea
