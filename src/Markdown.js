@@ -8,8 +8,7 @@ const Markdown = () => {
       <textarea
         name="markdown"
         id="markdown"
-        cols="30"
-        rows="10"
+        className="markdown"
         value={text}
         onChange={(e) => setText(e.target.value)}
       ></textarea>
